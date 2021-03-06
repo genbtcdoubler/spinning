@@ -23,6 +23,12 @@ $b|  HACKING - TOOLS : [31m GHANA$b        |
 [34m*********************************************[32m
 
 ";
+$__cfduid = "d509fd6511394e7d96d85ee39ec51d7451615053241";
+$PHPSESSID = "6lqkt9lv2gn8dms50gbvufiair";
+$bitmedia_fid = "eyJmaWQiOiJjOWEyZDg1MDEzMWFlYjM3MWUwMzdiYmMwNDk3YmViYiIsImZpZG5vdWEiOiI1ZWVlZDlkNDcwYjI4MzI3YzcyYjQxMzkzZTFkY2E5YyJ9";
+$spin_id = "110932";
+$_coinzilla_fp_ = "%7B%22backed%22%3A%5B%7B%22cap%22%3A2%2C%22lastCall%22%3A1615053363748%7D%5D%7D";
+
 
 
 
@@ -50,7 +56,7 @@ CURLOPT_URL => "$url",
 $obenz = curl_exec($hacker);
 curl_close($hacker);
 $js = json_decode($obenz,true);
-echo "alert alert-success : ".$js["alert alert-success"]."Congratulations You Have Earned 30 satoshi".$js["Congratulations You Have Earned 20 satoshi"]."\n";
+echo "alert alert-success : ".$js["alert alert-success"]."Congratulations You Have Earned 30 satoshi".$js["Congratulations You Have Earned 30 satoshi"]."\n";
 sleep(5);
 }
 ?>
